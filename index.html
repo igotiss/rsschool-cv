@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CV Igor Tyshchenko</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header>
+        <h1>rsschool-cv  Igor Tyshchenko</h1>
+        <nav>            
+                    <a href="https://igotiss.github.io/rsschool-cv/cv">Github page</a>               
+                    <a href="https://www.facebook.com/YhorTyschenko">FB page</a>
+        </nav>
+    </header>
+    <div class="container">
+       <div class="intro"> 
+           <img class="logo" src="images/tyshchenko.jpg" alt=" Igor Tyshchenko">
+           <h2>Full name: <i>Igor Tyshchenko</i></h2>
+        </div>
+        
+        <section class="contacts">
+            <details>
+                <summary>
+                    <h3>
+                        Contacts:
+                    </h3>
+                </summary>
+                <p>
+                    <h4>
+                    <ul>
+                        
+                            <li> Adress: <i>Ukraine, Vinnytsa</i></li>
+                            <li> Phone: <i><a href="tel:+380673066188">+38 (067) 30-66-188</a></i></li>
+                            <li> email: <i><a href="mailto:igotiss@gmail.com">igotiss@gmail.com</a></i></li>
+                                      
+                    </ul>
+                    </h4>  
+                </p>
+            </details>
+        </section>
+        
+        <section class="summary">
+            <details>
+                <summary>
+                    <h3>
+                        Short summary:
+                    </h3>
+                </summary>
+                <p>
+                    <ul>
+                        <li>
+                            <h4>My Goal:</h4>
+                            <ul>
+                                <li>
+                                    І want to get additional programming skills, gain new experience
+                                </li>
+                                <li>
+                                    The desire to receive moral satisfaction from work, to be proud of achievements
+                                </li>
+                            </ul>
+                        </li> 
+                        <li>
+                            <h4>My Priorities:</h4>
+                            <ul>
+                                <li>
+                                    Work in a team
+                                </li>
+                                <li>
+                                    Preliminary planning for efficient problem solving
+                                </li>
+                            </ul>
+                        </li>   
+                        <li>
+                            <h4>My strengths:</h4>
+                            <ul>
+                                <li>
+                                    Fast-learner
+                                </li>
+                                <li>
+                                    Self-motivated
+
+                                </li>
+                                <li>
+                                    Determined
+                                </li>
+                                <li>                                    
+                                    Success-oriented
+                                </li>
+                                <li>
+                                    Team player
+                                </li>
+                                <li>
+                                    Hardworking
+                                </li>
+                                <li>                                    
+                                    Intelligence
+                                </li>
+                                <li>                                    
+                                    Able to prioritize
+                                </li>
+                                <li>                                    
+                                    Able to work independently with little or no supervision
+                                </li>
+                                <li>
+                                    Open to change
+                                </li>                                
+                            </ul>
+                        </li>          
+                    </ul>
+                </p>
+            </details>
+        </section>
+        
+        <section class="skills">
+            <details>
+                <summary>
+                    <h3>
+                        Skills:
+                    </h3>
+                </summary>
+                <p>
+                    <ul>
+                        <li>
+                            HTML                            
+                        </li> 
+                        <li>
+                            CSS
+                        </li>   
+                        <li>
+                            JS
+                        </li>
+                        <li>
+                            Wordpress, Joomla
+                        </li>
+                        <li>
+                            JQUERY
+                        </li>
+                        <li>
+                            Preprocessors (SASS)
+                        </li>
+                        <li>
+                            PHP
+                        </li>
+                        <li>
+                            Laravel
+                        </li>
+                        <li>
+                            GIT                        
+                        </li>  
+                        <li>
+                            SOLID
+                        </li>        
+                    </ul>
+                </p>
+            </details>
+        </section>
+           
+        <section class="code">
+            <details>
+                <summary>
+                    <h3>
+                        Example of code:
+                    </h3>
+                </summary>
+                <code>
+                    Php laravel class AccountController extends Controller <Br>
+                    { <Br>
+                        /** Show all accounts * * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View */ <Br>
+                        public function index() <Br>
+                        { $accounts = Account::where(‘is_active’, 1)->get(); <Br>
+                            $currencies = Currency::all(); <Br>
+                            $total = Account::getTotal($accounts); <Br>
+                            $totalGrn = 0;<Br>
+                                <Br>
+                        foreach ($total as $key => $item){<Br>
+                          $totalGrn += $item * Currency::find($key)->rate;<Br>
+                         }<Br>
+                            
+                        return view('pages.accounts', compact('accounts', 'total', 'currencies', 'totalGrn'));<Br>
+                        }             <Br>       
+                    
+                </code>
+            </details>
+        </section>
+        <section class="expiriens"></section>
+            <details>
+                <summary>
+                    <h3>
+                        Еxperience:
+                    </h3>
+                </summary>
+                    <ul>
+                      <li><a href="https://www.https://www.malyatko.vn.ua/">Malyatko</a> - <a href="https://bitbucket.org/mishakatsan/malyatko/src/master/">Code Malytko in bitbucket.org</a></li>
+                      <li><a href="http://cpo.vn.ua/">cpo.vn.ua</a> without code, just WP</li>
+                      <li><a href="http://mrt.lutsk.ua/">mrt.lutsk.ua</a> without code, just WP</li>
+                      <li><a href="http://vmc.vn.ua/">vmc.vn.ua</a> without code, just Joomla</li>
+                    </ul>
+
+            </details>
+        
+        </section>
+
+        <section class="expiriens">
+            <details>
+                <summary>
+                    <h3>
+                        Education:
+                    </h3>
+                </summary>
+                    <ul>
+                        <li>
+                            National Pirogov Memorial Medical University, Vinnytsya, 2002, medical department
+                        
+                        </li>
+                        <li>
+                            PhD Normal Phisyology, 2017
+                        
+                        </li>
+                        <li>
+                            Self-education
+                        </li>
+                        <li>
+                            <a href="https://www.coursera.org/learn/web-applications-php">Coursera Building Web Applications in PHP</a>
+                        </li>
+                        <li>
+                            <a href="https://training.qatestlab.com/">QATestLab</a>
+                        </li>
+                        <li>
+                            <a href="https://htmlacademy.ru/">HTML academy</a>
+                        </li>
+                    </ul>
+            </details>
+        
+        </section>
+
+        <section class="language"></section>             
+                    <h3>
+                        English: <i>intermediate</i>
+                    </h3>         
+        </section>
+         
+    </div>
+    <footer>
+        <nav>            
+            <a href="maillo:igotis@ukr.net">email</a>
+            <a href="tel:+380673066188">Phone</a>
+            <a href="https://igotiss.github.io/rsschool-cv/cv">Github page</a>    
+            <a href="https://www.facebook.com/YhorTyschenko">FB page</a>
+        </nav>
+    </footer>
+<script src="js/main.min.js"></script>
+</body>
+</html>
